@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import {Demo} from './componets/Demo.jsx';
+import Demo2 from './componets/Demo2.jsx';
 
 function App() {
+  
+  let name = 'Rohit';
+  console.log(name);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Demo name={name}></Demo> */}
+    
+      <h1>This is a app component</h1>
     </div>
   );
 }
